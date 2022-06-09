@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif, Arial;
+    color: white;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}

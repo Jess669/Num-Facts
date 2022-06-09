@@ -1,0 +1,29 @@
+.main-fact {
+    background-color: rgb(75, 75, 255);
+    padding: 10px 20px 20px;
+    width: 500px;
+}
+
+.main-fact-sub {
+    font-size: 13px;
+}
+
+.main-fact-input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    color: black;
+}
+
+.main-fact-input::placeholder {
+    color: black;
+}
+
+.main-fact-body {
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.hide {
+    display: none;
+}
