@@ -30,7 +30,7 @@ function getInputValue(e) {
 // FETCH DATA USING FETCH
 function setInputValueFetch(inputValue) {
 
-    fetch('https://numbersapi.com/'+ inputValue)
+    fetch('http://numbersapi.com/'+ inputValue)
     .then(response => response.text())
     .then(data => render(data))
     .catch(error => console.log('Error: ', error));
